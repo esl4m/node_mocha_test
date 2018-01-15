@@ -20,5 +20,10 @@ describe('Array', function() {
             getSum = new sum([]);
             expect(getSum.getTotal()).to.equal(0);
         });
+
+        it('should return sum of input array', function () {
+            getSum = new sum([1,2,3,4]);
+            expect(getSum.getTotal()).to.equal(10);
+        });
     });
 });
