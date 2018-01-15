@@ -1,7 +1,6 @@
 var chai = require('chai');
 var expect = chai.expect;
 var assert = require('assert');
-
 var sum = require('../src/test-add');
 
 beforeEach(function() {
