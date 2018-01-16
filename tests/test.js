@@ -4,7 +4,7 @@ var assert = require('assert');
 var sum = require('../src/test-add');
 
 beforeEach(function() {
-    console.log('before every test in every file');
+    console.log('    Before every test .. Log this.');
 });
 
 describe('Array', function() {
@@ -19,7 +19,9 @@ describe('Array', function() {
             getSum = new sum([]);
             expect(getSum.getTotal()).to.equal(0);
         });
+    });
 
+    describe('Function test sum', function() {
         it('should return sum of input array', function () {
             getSum = new sum([1,2,3,4]);
             expect(getSum.getTotal()).to.equal(10);
