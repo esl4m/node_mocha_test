@@ -8,8 +8,6 @@ GetSum.prototype.getTotal = function() {
         return a + b;
     }
     return sum;
-    // var sum = this._items.reduce(function(a, b) { return a + b; }, 0);
-    // console.log(sum);
 }
 
 module.exports = GetSum;
