@@ -16,14 +16,14 @@ describe('Array', function() {
 
     describe('Function tests', function() {
         it('should return zero for a zero length input array', function () {
-            getSum = new sum([]);
+            var getSum = new sum([]);
             expect(getSum.getTotal()).to.equal(0);
         });
     });
 
     describe('Function test sum', function() {
         it('should return sum of input array', function () {
-            getSum = new sum([1,2,3,4]);
+            var getSum = new sum([1,2,3,4]);
             expect(getSum.getTotal()).to.equal(10);
         });
     });
