@@ -27,4 +27,11 @@ describe('Array', function() {
             expect(getSum.getTotal()).to.equal(10);
         });
     });
+
+    describe('Function test sub', function() {
+        it('should return abs number from subtract 2 values of input array', function () {
+            var getsub = new sum([4, 3]);
+            expect(getsub.getSubtract()).to.equal(1);
+        });
+    });
 });
