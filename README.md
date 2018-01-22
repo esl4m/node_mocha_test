@@ -16,6 +16,10 @@ $ npm install chai --save
 
 ## To test your code and watch the test:
 ```
+git clone git@github.com:esl4m/node_mocha_test.git
+```
+cd to the folder
+```
 $ mocha tests --recursive --watch
 ```
 or
